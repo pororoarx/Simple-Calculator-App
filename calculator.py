@@ -9,8 +9,11 @@ print("Hello! Welcome to Ken's Calculator App")
 print("1. Addition\n2. Subtraction\n3. Multiplication\n4. Division")
 
 # define a function called calculator
+def calculator():
     # perform a while loop until the user decided to exit the loop
+    while True:
         # ask user to enter an operation
+        chosen_operation = input("Choose one of the four operations: ")
 
         # if user chooses addition
             # ask the user to enter two numbers
@@ -85,6 +88,3 @@ print("1. Addition\n2. Subtraction\n3. Multiplication\n4. Division")
 
 
 # call the function
-
-
-            
