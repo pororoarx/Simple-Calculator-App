@@ -168,6 +168,7 @@ def calculator():
 
 
         # break out of the loop
+        break
 
 
 # call the function
