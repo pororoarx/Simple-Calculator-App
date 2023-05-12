@@ -162,6 +162,9 @@ def calculator():
             break
 
         # if user entered an invalid response, print an error message
+        else:
+            print("Invalid response. Kindly run it again.")
+            break
 
 
         # break out of the loop
