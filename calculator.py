@@ -148,9 +148,12 @@ def calculator():
             print("Invalid input")
 
         # ask user if they want to solve again
+        new_computation = str(input("Would you like to solve again? (YES/NO): "))
 
         # if the user answered yes,
+        if new_computation.upper() == "YES":
             # call the calculator function to repeat the process
+            calculator()
 
         # if the user answered no,
             # print thank you and exit the program
