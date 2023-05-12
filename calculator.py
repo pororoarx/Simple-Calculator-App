@@ -16,15 +16,29 @@ def calculator():
         chosen_operation = input("Choose one of the four operations: ")
 
         # if user chooses addition
+        if chosen_operation == "1":
             # ask the user to enter two numbers
+            number_1 = input("Enter your first number: ")
+            number_2 = input("Enter your second number: ")
 
             # try
+            try:
                 # convert both inputs to float if one or both of the inputs made by user is a float
+                if "." in number_1 or "." in number_2:
+                    number_1 = float(number_1)
+                    number_2 = float(number_2)
                 # otherwise, convert both inputs made by user to integers
+                else:
+                    number_1 = int(number_1)
+                    number_2 = int(number_2)
 
                 # calculate the sum and print the result
+                result = number_1 + number_2
+                print("\nThe sum is:", result)
 
             # if the user entered an invalid response, catch the exception and print an error message
+            except ValueError:
+                print("Invalid input")
 
 
         # if user chooses subtraction
@@ -88,3 +102,4 @@ def calculator():
 
 
 # call the function
+calculator()
