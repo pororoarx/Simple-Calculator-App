@@ -156,7 +156,10 @@ def calculator():
             calculator()
 
         # if the user answered no,
+        elif new_computation.upper() == "NO":
             # print thank you and exit the program
+            print("Thank you!")
+            break
 
         # if user entered an invalid response, print an error message
 
