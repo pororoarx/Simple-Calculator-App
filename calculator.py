@@ -6,7 +6,7 @@
 print("Hello! Welcome to Ken's Calculator App")
 
 # print the operations that users can pick from
-
+print("1. Addition\n2. Subtraction\n3. Multiplication\n4. Division")
 
 # define a function called calculator
     # perform a while loop until the user decided to exit the loop
