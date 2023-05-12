@@ -129,7 +129,7 @@ def calculator():
 
                 # perform a while loop to ask the user if they want to divide again
                 while True:
-                    another_input = input("Would you like to try dividing again? (YES/NO)")
+                    another_input = input("Would you like to try dividing again? (YES/NO): ")
                     # if yes, break out of the inner loop and repeat the division operation
                     if another_input.upper() == "YES":
                         break
@@ -138,6 +138,9 @@ def calculator():
                         return
                     
                     # if user entered an invalid response, ask the user to enter either 'YES' or 'NO'
+                    else:
+                        print("Invalid reply. Please enter 'YES' or 'NO'")
+          
 
         # if user entered an invalid operation,
             # print an error message
