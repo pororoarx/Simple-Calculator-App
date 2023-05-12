@@ -94,9 +94,12 @@ def calculator():
 
 
         # if user chooses division
+        elif chosen_operation == "4":
             # perform a while loop until a valid solution for division is performed or user chose to exit
-
+            while True:
                 # ask the user to enter two numbers
+                number_1 = input("Enter your first number: ")
+                number_2 = input("Enter your second number: ")
 
                 # try
                     # convert both inputs to float if one or both of the inputs made by user is a float
@@ -114,6 +117,9 @@ def calculator():
                     # if no, return from the function and exit
                     
                     # if user entered an invalid response, ask the user to enter either 'YES' or 'NO'
+
+        # if user entered an invalid operation,
+            # print an error message
 
         # ask user if they want to solve again
 
