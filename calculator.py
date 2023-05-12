@@ -143,7 +143,9 @@ def calculator():
           
 
         # if user entered an invalid operation,
+        else:
             # print an error message
+            print("Invalid input")
 
         # ask user if they want to solve again
 
