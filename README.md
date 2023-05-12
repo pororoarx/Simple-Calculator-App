@@ -28,9 +28,9 @@ Table of Contents
 10.	If the user chooses to exit, the program will display a “Thank you!” message and terminate.
 
 •	Formulation
-This program was formulated using Python. It defined a function to modularized various parts of the code. It also uses a while loop to allow user to repeatedly prompt an input and perform mathematical operations until the user chooses to exit the program. It also uses the Python’s try-except feature to handle potential errors that will be made from the user’s invalid responses, such as invalid inputs or division by error, by printing a simple error message to the user instead. It also incorporates different color formatting to enhance readability of the output in the terminal. 
+1. This program was formulated using Python. It defined a function to modularized various parts of the code. It also uses a while loop to allow user to repeatedly prompt an input and perform mathematical operations until the user chooses to exit the program. It also uses the Python’s try-except feature to handle potential errors that will be made from the user’s invalid responses, such as invalid inputs or division by error, by printing a simple error message to the user instead. It also incorporates different color formatting to enhance readability of the output in the terminal. 
 
 •	Conclusion
-This Simple Calculator App is a program designed to perform basic mathematical operations by keeping in mind to have a user-friendly command-line interface. It is designed to ensure users for accurate results and proper error handling. It is a simple program that users can use to add, subtract, multiply or divide two numbers entered. It is also a program that allows for basic repetition calculations.
+1. This Simple Calculator App is a program designed to perform basic mathematical operations by keeping in mind to have a user-friendly command-line interface. It is designed to ensure users for accurate results and proper error handling. It is a simple program that users can use to add, subtract, multiply or divide two numbers entered. It is also a program that allows for basic repetition calculations.
 
 ==========================================================================================================================================================================================================================================
